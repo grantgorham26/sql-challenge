@@ -10,7 +10,7 @@ FROM
     INNER JOIN salaries AS s ON e.emp_no = s.emp_no;
 
 -- 2. List the first name, last name, and hire date for the employees who were hired in 1986.
---      Used Xpert Learning Assistant to convert the VARCHAR data in the hire_date column to DATETIME values.
+--      e
 SELECT
     *
 FROM
@@ -53,7 +53,7 @@ FROM
     JOIN departments AS d ON de.dept_no = d.dept_no
     JOIN employees AS e ON de.emp_no = e.emp_no;
 
--- 5. List first name, last name, and sex of each employee whose first name is Hercules and whose last name begins with the letter B.
+-- 5. List .
 SELECT
     first_name,
     last_name,
@@ -64,7 +64,7 @@ WHERE
     first_name = 'Hercules'
     AND last_name LIKE 'B%';
 
--- 6. List each employee in the Sales department, including their employee number, last name, and first name.
+-- 6. e, including their employee number, last name, and first name.
 SELECT
     e.emp_no,
     e.last_name,
